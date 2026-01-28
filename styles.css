@@ -729,6 +729,7 @@ html {
 
     .catalog-row {
         padding: 20px;
+        scroll-margin-top: var(--header-height);
     }
 
     .btn-discover {
@@ -751,6 +752,7 @@ html {
         display: block;
     }
 }
+
 
 
 
