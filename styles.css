@@ -66,7 +66,9 @@ body {
     color: #e50914;
     letter-spacing: 2px;
 }
-
+.main-nav {
+  display: none;
+}
 /* NAVIGATION */
 .main-nav ul {
     list-style: none;
@@ -796,6 +798,7 @@ html {
     right: auto;
   }
 }
+
 
 
 
