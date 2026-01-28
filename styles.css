@@ -774,7 +774,7 @@ html {
     display: none;
     position: fixed;
     top: 70px;
-    left: 0;
+    left: 20px;
     width: 100%;
     background: black;
     z-index: 2000;
@@ -795,6 +795,7 @@ html {
     right: 20px;
   }
 }
+
 
 
 
