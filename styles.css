@@ -753,6 +753,7 @@ html {
         scroll-margin-top: var(--header-height);
     }
 }
+
 #burger {
   display: none;
   font-size: 30px;
@@ -792,6 +793,7 @@ html {
     display: block;
   }
 }
+
 
 
 
