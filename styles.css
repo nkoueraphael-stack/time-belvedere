@@ -753,6 +753,53 @@ html {
         scroll-margin-top: var(--header-height);
     }
 }
+.menu-toggle {
+  display: none;
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 2000;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  .main-nav ul {
+    display: none;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    z-index: 1500;
+  }
+
+  .main-nav ul.show {
+    display: flex;
+  }
+
+  .main-nav ul li {
+    text-align: center;
+    padding: 16px 0;
+  }
+
+  .main-nav ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+
 
 
 
