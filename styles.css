@@ -750,8 +750,10 @@ html {
 @media (max-width: 768px) {
     .menu-toggle {
         display: block;
+        scroll-margin-top: var(--header-height);
     }
 }
+
 
 
 
