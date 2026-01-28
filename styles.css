@@ -67,7 +67,7 @@ body {
     letter-spacing: 2px;
 }
 .main-nav {
-  display: none;
+  display: block;
 }
 /* NAVIGATION */
 .main-nav ul {
@@ -798,6 +798,7 @@ html {
     right: auto;
   }
 }
+
 
 
 
