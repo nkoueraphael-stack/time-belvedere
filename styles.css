@@ -761,7 +761,7 @@ html {
   color: white;
   position: fixed;
   top: 15px;
-  right: 20px;
+  left: 20px;
   z-index: 3000;
   cursor: pointer;
 }
@@ -791,6 +791,7 @@ html {
     display: block;
   }
 }
+
 
 
 
