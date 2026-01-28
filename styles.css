@@ -791,10 +791,11 @@ html {
 
   #burger {
     display: block;
-    left: 20px;
-    right: auto;
+    left: auto;
+    right: 20px;
   }
 }
+
 
 
 
