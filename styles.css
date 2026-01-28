@@ -791,8 +791,11 @@ html {
 
   #burger {
     display: block;
+    left: 20px;
+    right: auto;
   }
 }
+
 
 
 
