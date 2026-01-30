@@ -787,6 +787,19 @@ html {
   padding: 16px;
 }
 
+nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (min-width: 768px) {
+  nav ul {
+    flex-direction: row;
+  }
+}
+
+
 
 
 
