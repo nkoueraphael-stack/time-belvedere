@@ -330,9 +330,11 @@
 
 <script>
   const burger = document.getElementById("burger");
+  const nav = document.querySelector(".main-nav");
 
   burger.addEventListener("click", () => {
     burger.classList.toggle("active");
+    nav.classList.toggle("open");
   });
 </script>
 
@@ -348,6 +350,7 @@
 </script>
 
 </html>
+
 
 
 
