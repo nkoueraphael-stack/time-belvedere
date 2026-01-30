@@ -329,9 +329,11 @@
 </section>
 
 <script>
-  document.getElementById("burger").onclick = function () {
-    document.querySelector(".main-nav").classList.toggle("open");
-  };
+  const burger = document.getElementById("burger");
+
+  burger.addEventListener("click", () => {
+    burger.classList.toggle("active");
+  });
 </script>
 
 <script src="script.js"></script>
@@ -346,6 +348,7 @@
 </script>
 
 </html>
+
 
 
 
