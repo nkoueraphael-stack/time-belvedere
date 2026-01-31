@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIME BELVEDERE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+<header class="main-header">
+    <div class="header-left">
+        <div class="logo">TIME BELVEDERE</div>
+        <button id="burger">☰</button>
+        
+    </div>
+
+    <div class="header-right">
+        <a href="#" class="login-btn">Connexion</a>
+    </div>
+</header>
+    <a href="index.html">← Retour à l’accueil</a>
+    <h1>Découvrir</h1>
+
+    <section class="profiles">
+
+  <div class="profile-card">
+    <a href="profils_beni.html">
+      <img src="images/beni.jpg" alt="Béni">
+      <h3>Béni Nkoue</h3>
+      <p class="domain">Cinéma • Musique</p>
+      <p class="desc">Fondateur de HOLLYBOOK RECORD</p>
+    </a>
+  </div>
+
+  <div class="profile-card">
+    <a href="profils/artiste1.html">
+      <img src="images/artiste1.jpg" alt="Artiste">
+      <h3>Emma Diarra</h3>
+      <p class="domain">Actrice</p>
+      <p class="desc">Actrice engagée dans le cinéma social</p>
+    </a>
+  </div>
+
+</section>
+
+<script>
+  document.getElementById("burger").onclick = function () {
+    document.querySelector(".main-nav").classList.toggle("open");
+  };
+</script>
+
+<script src="script.js"></script>
+
+</body>
+<footer class="site-footer">
+    <p>© <span id="year"></span> TIME BELVEDERE. Tous droits réservés.</p>
+</footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</html>
