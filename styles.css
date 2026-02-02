@@ -872,23 +872,25 @@ html, body {
 
 /* Bouton Découvrir – version mobile */
 @media (max-width: 768px) {
-  .btn-decouvrir {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
+  .btn-decouvrir-fixed {
+  position: fixed !important;
+  bottom: 20px;
+  right: 20px;
 
-    background: #e50914;
-    color: white;
-    padding: 14px 22px;
-    border-radius: 30px;
+  background: #e50914;
+  color: #fff;
+  padding: 14px 22px;
+  border-radius: 30px;
 
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
 
-    z-index: 9999;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
-  }
+  z-index: 10000;
+
+  pointer-events: auto;
+}
+
 }
 
 
@@ -1008,6 +1010,7 @@ html, body {
   margin-top: 10px;
   color: #c9a24d;
 }
+
 
 
 
