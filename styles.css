@@ -951,6 +951,20 @@ html, body {
   }
 }
 
+/* 📱 Téléphones */
+@media (max-width: 600px) {
+  .profiles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 📲 Tablettes */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .profiles {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 .pdf-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -990,6 +1004,7 @@ html, body {
   margin-top: 10px;
   color: #c9a24d;
 }
+
 
 
 
