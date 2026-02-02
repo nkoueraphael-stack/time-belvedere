@@ -870,6 +870,27 @@ html, body {
   }
 }
 
+/* Bouton Découvrir – version mobile */
+@media (max-width: 768px) {
+  .btn-decouvrir {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    background: #e50914;
+    color: white;
+    padding: 14px 22px;
+    border-radius: 30px;
+
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+
+    z-index: 9999;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  }
+}
+
 
 .profiles {
   display: grid;
@@ -987,5 +1008,6 @@ html, body {
   margin-top: 10px;
   color: #c9a24d;
 }
+
 
 
