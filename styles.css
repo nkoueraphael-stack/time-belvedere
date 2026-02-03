@@ -1016,10 +1016,13 @@ html, body {
 
 /* Ordinateur */
 @media (min-width: 769px) {
+   .historique-text {
     p {
         text-align: left;
     }
+   }
 }
+
 
 
 
