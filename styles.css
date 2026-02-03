@@ -1014,12 +1014,23 @@ html, body {
   padding: 0 15px;
 }
 
-.historique-text p {
+.historique-container {
+  max-width: 800px;
+  margin: 40px auto; /* centre le bloc */
+  padding: 0 16px;
+}
+
+.historique-container p {
   text-align: left;
+  line-height: 1.8;
 }
 
 @media (max-width: 768px) {
-  .historique-text p {
+  .historique-container {
+    margin: 20px auto;
+  }
+
+  .historique-container p {
     text-align: left;
   }
 }
