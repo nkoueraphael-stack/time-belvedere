@@ -1014,6 +1014,13 @@ html, body {
   padding: 0 15px;
 }
 
+/* Ordinateur */
+@media (min-width: 769px) {
+    p {
+        text-align: left;
+    }
+}
+
 
 
 
